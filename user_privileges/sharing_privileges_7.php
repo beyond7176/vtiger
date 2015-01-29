@@ -2,7 +2,7 @@
 
 
 //This is the sharing access privilege file
-$defaultOrgSharingPermission=array('2'=>2,'4'=>2,'6'=>2,'7'=>2,'9'=>3,'13'=>2,'16'=>3,'20'=>2,'21'=>2,'22'=>2,'23'=>2,'26'=>2,'8'=>2,'14'=>2,'34'=>2,'35'=>2,'37'=>2,'41'=>2,'42'=>2,'43'=>2,'44'=>2,'46'=>2,'18'=>2,'10'=>2,);
+$defaultOrgSharingPermission=array('2'=>3,'4'=>3,'6'=>3,'7'=>3,'9'=>3,'13'=>3,'16'=>3,'20'=>3,'21'=>3,'22'=>3,'23'=>3,'26'=>3,'8'=>3,'14'=>3,'34'=>3,'35'=>3,'37'=>3,'41'=>3,'42'=>3,'43'=>3,'44'=>3,'46'=>3,'18'=>3,'10'=>3,);
 
 $related_module_share=array(2=>array(6,),13=>array(6,),20=>array(6,2,),22=>array(6,2,20,),23=>array(6,22,),);
 
@@ -94,7 +94,7 @@ $Invoice_share_read_permission=array('ROLE'=>array(),'GROUP'=>array());
 
 $Invoice_share_write_permission=array('ROLE'=>array(),'GROUP'=>array());
 
-$Documents_share_read_permission=array('ROLE'=>array(),'GROUP'=>array());
+$Documents_share_read_permission=array('ROLE'=>array(),'GROUP'=>array(4=>array(0=>7,),));
 
 $Documents_share_write_permission=array('ROLE'=>array(),'GROUP'=>array());
 
